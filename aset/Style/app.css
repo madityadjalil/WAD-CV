@@ -1,0 +1,113 @@
+body {
+    background : linear-gradient(#585858 0%, #ffffff 40%, #ffffff88 100% );
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}   
+.profileimage {
+    width: 300px;
+    height: 300px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.profile h2 {
+    color: rgb(0, 0, 0) ;
+    transform: translateY(5px);
+}
+
+.biodata div {
+    text-align: justify;
+    transform: translateY(10px) ;
+}
+
+.profile h5 {
+    color : rgb(0, 0, 0) ;
+}
+
+.biodata {
+    background : linear-gradient(#ffffff 0%, #0000005a 40%, #ffffff00 100% );
+    padding-bottom: 700px;
+    transform: translateY(-50px);
+} 
+
+.pendidikan h1 {
+    transform: translateY(80px);
+    color: rgb(0, 0, 0);
+
+}
+
+.pendidikan div {
+    transform: translateY(50px);
+}
+
+.pengalaman {
+    background-color: linear-gradient(#ffffff 0%, #ffffff 40%, #ffffff 100%);
+    transform: translateY(100px);
+}
+
+
+.pengalaman h1 {
+    transform: translateY(-380px);
+}
+
+.pengalaman div {
+    transform: translateY(-65px);
+}
+
+.pengalaman h5 {
+    transform: translateY(60px);
+}
+
+.pengalaman h6 {
+    transform: translateY(60px);
+}
+
+.pengalaman p {
+    transform: translateY(70px);
+    text-align: justify;
+}
+
+.pendidikan h5 {
+    transform: translateY(-50px);
+}
+
+.pendidikan h6 {
+    transform: translateY(-50px);
+}
+
+.pendidikan p {
+    transform: translateY(-50px);
+    text-align: center;
+}
+
+.skill a {
+    font-size: 100px;
+    transform: translateY(30px);
+    padding-bottom: 300px;
+    color: #000000;
+}
+
+.skill {
+    background-color: linear-gradient(#ffffff 0%, #ffffff 40%, #ffffff 100%);
+}
+
+.contact h1 {
+    transform: translateY(150px);
+}
+
+.contact div {
+    transform: translateY(150px);
+    font-size: 35px;
+}
+
+.contact a {
+    color: #000000;
+}
+
+.contact p {
+    font-size: 10px;
+}
